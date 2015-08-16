@@ -1,0 +1,26 @@
+{
+  "name": "retest",
+  "version": "0.0.0",
+  "dependencies": {},
+  "repository": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.2.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "opn": "^3.0.2",
+    "tiny-lr": "^0.1.6"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

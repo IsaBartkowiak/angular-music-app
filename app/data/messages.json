@@ -1,0 +1,42 @@
+[
+  {
+    "txt": "tu sais que t'es canon ?",
+    "woman": "meuf",
+    "man": "man",
+    "tags": [
+      "happy",
+      "saturday",
+      "friday"
+    ]
+  }, 
+   {
+   "txt": "sois pas triste",
+    "woman": "meuf",
+    "man": "man",
+    "tags": [
+      "sad",
+      "sunday",
+      "monday"
+    ]
+  },
+   {
+   "txt": "Tu sais que t'es canon ?",
+    "woman": "meuf",
+    "man": "man",
+    "tags": [
+      "sad",
+      "sunday",
+      "monday"
+    ]
+  },
+   {
+   "txt": "Tu sais que t'es canon ?",
+    "woman": "meuf",
+    "man": "man",
+    "tags": [
+      "sad",
+      "sunday",
+      "monday"
+    ]
+  }
+]

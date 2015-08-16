@@ -1,0 +1,59 @@
+<div class="player-container" ng-controller="MusicCtrl as music">
+
+
+	<!-- player header -->
+	<div id="player" style="overflow: hidden; height: 0"></div>
+	<div id="my-player-parent">
+		<div id="my-player" class="player2 fixed player-header" ng-init="" ng-hide="currentTrack.title == null" style="background-image: url({{currentTrack.artist.picture_big}})">
+			<div class="player-overlay"></div>
+
+			<div class="player-message">
+				Hey bordel de cul !
+			</div>
+
+			<div class="player-infos">
+				<div class="player-infos--imgwrapper">
+					<img class="player-infos--img" ng-src="{{ currentTrack.artist.picture_medium }}" alt="{{ currentTrack.title }}" />
+				</div>
+				<div class="player-infos--artist">{{ currentTrack.artist.name }}</div>
+				<div class="player-infos--title">{{ currentTrack.title }}</div>
+
+				<div class="player-controls">
+					<span class="button player-controls--prev" ng-click="prev()"><i class="fa fa-backward"></i></span>
+					<span class="button player-controls--play" ng-click="start()" ng-class="{pause: currentTrack.isPlaying, 'play': !currentTrack.isPlaying }"></span>
+					<span class="button player-controls--next" ng-click="next()"><i class="fa fa-forward"></i></span>
+				</div>
+
+							<div class="player-progress">
+				<div class="player-progress--currentTime">{{ currentTrack.timeCurrent | humanTime }}</div>
+				<div class="player-progress--totalTime">{{ currentTrack.timeTotal | humanTime }}</div> 
+				<div class="player-progress--bar" ng-click="move($event)">
+					<div class="player-progress--current" ng-style="{'width': (currentTrack.timeCurrent / currentTrack.timeTotal * 100) + '%'}"></div>
+				</div>
+				   
+			</div>
+				
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+	<!-- player playlist -->
+	<div class="tracks">
+		<div class="tracks-content" ng-repeat="music in tracks">
+			<div class="tracks-imgwrapper">
+				<img class="tracks-img" src="{{music.img}}" alt="">
+			</div>
+			<div class="tracks-data">
+				<div class="tracks-artist">{{music.artist}}</div>
+				<div class="tracks-title">{{music.title}}</div>
+				<div class="play-control" ng-click="play(music.trackId)"></div>
+			</div>
+
+		</div>
+	</div>
+	
+</div>

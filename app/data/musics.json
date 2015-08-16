@@ -1,0 +1,48 @@
+[
+  {
+    "trackId": "536979",
+    "artist" : "",
+    "tags": [
+      "sad",
+      "sunday",
+      "monday"
+    ]
+  }, 
+   {
+    "trackId": "88487087",
+    "artist" : "",
+    "tags": [
+      "happy",
+      "saturday",
+      "cool"
+    ]
+  },
+   {
+    "trackId": "18063022",
+    "artist" : "",
+    "tags": [
+      "happy",
+      "saturday",
+      "cool"
+    ]
+  },
+   {
+    "trackId": "62963469",
+    "artist" : "",
+    "tags": [
+      "angry",
+      "sunday",
+      "rock"
+    ]
+  },
+  {
+    "trackId": "88487087",
+    "artist" : "",
+    "tags": [
+      "angry",
+      "sunday",
+      "rock"
+    ]
+  }
+]
+
